@@ -32,11 +32,17 @@
     "trailingComma": "es5"
   },
   "name": "job-planner",
+  "description": "Simple and powerful execution flow control lib. Manage your processes' execution order with zero pain.",
+  "keywords": ["exectuion-flow", "task", "orchestration", "task-runner", "task-manager", "process"],
   "author": {
     "name": "Kirill Lykho",
     "email": "lykho.kirill@gmail.com"
   },
-  "repository": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lykho/job-planner"
+  },
+  "homepage": "https://github.com/lykho/job-planner#readme",
   "module": "dist/job-planner.esm.js",
   "size-limit": [
     {

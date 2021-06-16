@@ -22,8 +22,8 @@ export const parallel: Parallel = (...processes) => ({
 });
 
 const defaultConfig: Config = {
-  executor(process: Process, data?: any): Promise<any> | any {
-    return process(data);
+  async executor(process: Process): Promise<any> {
+    return process();
   },
   stopOnError: false,
   errorHandler(e: Error) {
